@@ -90,3 +90,15 @@ nav{
 .color-lightgrey{
     background-color: lightgrey;
 }
+.color-lightlightgrey{
+    background-color: rgb(224, 224, 224);
+    /* height: 600px; */
+}
+
+.color-green{
+    background-color: green;
+    flex-grow: 1;
+    margin: 30px auto;
+    align-items: center;
+    height: 500px;
+}
