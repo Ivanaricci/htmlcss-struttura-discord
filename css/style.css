@@ -35,7 +35,8 @@ nav{
 }
 
 .logo, .menu, .login{
-    background-color: rgb(255, 186, 96)
+    background-color: rgb(255, 186, 96);
+    padding: 5px 10px;
 }
 
 .logo, .login{
@@ -45,6 +46,7 @@ nav{
 .login{
     text-align: right;
 }
+
 
 .menu{
     width: 60%;
