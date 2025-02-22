@@ -69,3 +69,20 @@ nav{
     margin: 30px auto;
     align-items: center;
 }
+
+
+
+/* main */
+
+.color-lightblue{
+    background-color: lightskyblue;
+    height: 400px;
+    flex-grow: 1;
+    margin: 30px 0px;
+}
+
+.color-pink{
+    background-color: pink;
+    flex-basis: 40%;
+    margin: 30px 0px;
+}
