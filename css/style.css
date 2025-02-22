@@ -13,7 +13,7 @@
 }
 
 .border{
-    border: 2px dotted black;
+    border: 2px dashed black;
 }
 
 .flex{
@@ -102,3 +102,78 @@ nav{
     align-items: center;
     height: 500px;
 }
+
+
+
+/* footer */
+/* prima sezione footer */
+.color-coral{
+    background-color: coral;
+    height: 400px;
+    flex-basis: 30%;
+    margin: 7px 0px 25px;
+}
+
+.content{
+    flex-grow: 1;
+    margin: 7px 0px 25px;
+    border-top: 2px dashed black;
+    border-right: 2px dashed black;
+    border-bottom: 2px dashed black;
+
+}
+
+.color-aqua{
+    background-color: aqua;
+    flex-basis: 30%;
+}
+
+.color-lightblack{
+    background-color: rgb(41, 41, 41)
+}
+
+.border-white{
+    border: 2px dotted white;
+}
+
+.blocco1, .blocco4{
+border: 2px dashed white;
+}
+
+.blocco2, .blocco3{
+    border-top: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+
+.blocco2{
+    border-right: 2px dashed white;
+}
+
+
+/* seconda sezione footer */
+
+
+.color-aquamarine{
+    background-color: aquamarine;
+    flex-grow: 1;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end-footer{
+    height: 70px;
+    margin: 2px 0px;
+    align-items: center;
+}
+
+
+.logo-footer, .btn-footer{
+    background-color: pink;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+
+
+
