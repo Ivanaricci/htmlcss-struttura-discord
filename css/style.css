@@ -31,7 +31,6 @@ nav{
     height: 50px;
     justify-content: space-between;
     /* background-color: rgb(255, 186, 96); */
-    flex-basis: 50%;
     align-items: center;
 }
 
@@ -43,7 +42,7 @@ nav{
     width: 20%;
 }
 
-login{
+.login{
     text-align: right;
 }
 
