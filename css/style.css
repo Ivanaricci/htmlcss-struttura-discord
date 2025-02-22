@@ -5,14 +5,58 @@
 }
 
 
+
 .container{
     display: flex;
     max-width: 1080px;
     margin: 0px auto;
-    border: 1px dotted black ;
 }
 
-.bg-cappuccino{
+.border{
+    border: 2px dotted black;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* header */
+
+header{
+    background-color: rgb(144, 255, 255);
+}
+
+nav{
+    height: 50px;
+    justify-content: space-between;
+    /* background-color: rgb(255, 186, 96); */
+    flex-basis: 50%;
+    align-items: center;
+}
+
+.logo, .menu, .login{
+    background-color: rgb(255, 186, 96)
+}
+
+.logo, .login{
+    width: 20%;
+}
+
+login{
+    text-align: right;
+}
+
+.menu{
+    width: 60%;
+    text-align: center;
+}
+
+
+
+
+
+/* .bg-cappuccino{
     height: 50px;
     background-color: #A38F85;
 }
@@ -36,9 +80,4 @@
     display: inline-block;
     text-align: center;
     /* height: 300px; */
-    width: 300px;
-}
-
-.border{
-    border: 1px dotted black;
-}
+    /* width: 300px; */
