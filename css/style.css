@@ -86,3 +86,7 @@ nav{
     flex-basis: 40%;
     margin: 30px 0px;
 }
+
+.color-lightgrey{
+    background-color: lightgrey;
+}
