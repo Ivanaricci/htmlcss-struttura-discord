@@ -27,6 +27,8 @@ header{
     background-color: rgb(144, 255, 255);
 }
 
+/* header nav */
+
 nav{
     height: 50px;
     justify-content: space-between;
@@ -54,31 +56,16 @@ nav{
 }
 
 
+/* header main */
 
-
-
-/* .bg-cappuccino{
-    height: 50px;
-    background-color: #A38F85;
+.color-blue{
+    background-color: blue;
+    height: 300px;
 }
 
-.logo{
-    width: 30%;
+.color-fucsia{
+    background-color: fuchsia;
+    width: 900px;
+    margin: 30px auto;
+    align-items: center;
 }
-
-.login{
-    width: 30%;
-    text-align: right;
-}
-
-
-.bg-nude{
-    background-color:#E7D7C9 ;
-}
-
-.menu ul li{
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    /* height: 300px; */
-    /* width: 300px; */
